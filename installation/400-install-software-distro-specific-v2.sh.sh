@@ -813,63 +813,63 @@ fi
 
 
 
-echo "################################################################"
-echo "openbox-arc-git"
-echo "################################################################"
+#echo "################################################################"
+#echo "openbox-arc-git"
+#echo "################################################################"
 
 
-package="openbox-arc-git"
+#package="openbox-arc-git"
 
 #----------------------------------------------------------------------------------
 
 #checking if application is already installed or else install with aur helpers
-if pacman -Qi $package &> /dev/null; then
+#if pacman -Qi $package &> /dev/null; then
 
-	echo "################################################################"
-	echo "################## "$package" is already installed"
-	echo "################################################################"
+#	echo "################################################################"
+#	echo "################## "$package" is already installed"
+#	echo "################################################################"
 
-else
+#else
 
 	#checking which helper is installed
-	if pacman -Qi packer &> /dev/null; then
+#	if pacman -Qi packer &> /dev/null; then
 
-		echo "Installing with packer"
-		packer -S --noconfirm --noedit  $package
+#		echo "Installing with packer"
+#		packer -S --noconfirm --noedit  $package
 
-	elif pacman -Qi pacaur &> /dev/null; then
-		
-		echo "Installing with pacaur"
-		pacaur -S --noconfirm --noedit  $package
-		 	
-	elif pacman -Qi yaourt &> /dev/null; then
+#	elif pacman -Qi pacaur &> /dev/null; then
 
-		echo "Installing with yaourt"
-		yaourt -S --noconfirm $package
-			  	
-        elif pacman -Qi trizen &> /dev/null; then
+#		echo "Installing with pacaur"
+#		pacaur -S --noconfirm --noedit  $package
 
-                echo "Installing with trizen"
-                trizen -S --noconfirm $package
+#	elif pacman -Qi yaourt &> /dev/null; then
 
-	fi
+#		echo "Installing with yaourt"
+#		yaourt -S --noconfirm $package
+
+#        elif pacman -Qi trizen &> /dev/null; then
+
+#                echo "Installing with trizen"
+#                trizen -S --noconfirm $package
+
+#	fi
 
 	# Just checking if installation was successful
-	if pacman -Qi $package &> /dev/null; then
-	
-	echo "################################################################"
-	echo "#########  "$package" has been installed"
-	echo "################################################################"
+#	if pacman -Qi $package &> /dev/null; then
 
-	else
+#	echo "################################################################"
+#	echo "#########  "$package" has been installed"
+#	echo "################################################################"
 
-	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-	echo "!!!!!!!!!  "$package" has NOT been installed"
-	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+#	else
 
-	fi
+#	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+#	echo "!!!!!!!!!  "$package" has NOT been installed"
+#	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 
-fi
+#	fi
+
+#fi
 
 
 
