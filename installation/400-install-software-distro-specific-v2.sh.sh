@@ -34,12 +34,12 @@ sudo pacman -S nemo nemo-share nemo-fileroller --noconfirm --needed
 # openbox - pacman
 sudo pacman -S exo --needed --noconfirm
 sudo pacman -S gsimplecal --needed --noconfirm
-sudo pacman -S lightdm --needed --noconfirm
+sudo pacman -S lightdm lightdm-gtk-greeter --needed --noconfirm
 sudo pacman -S notify-osd --needed --noconfirm
 sudo pacman -S numlockx --needed --noconfirm
 sudo pacman -S obconf --needed --noconfirm
-sudo pacman -S oblogout --needed --noconfirm
-sudo pacman -S obmenu --needed --noconfirm
+#sudo pacman -S oblogout --needed --noconfirm
+#sudo pacman -S obmenu --needed --noconfirm
 sudo pacman -S openbox --needed --noconfirm
 
 
