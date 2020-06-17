@@ -29,6 +29,11 @@ elif which yaourt &> /dev/null; then
 	echo "Installing with yaourt"
 	yaourt -S --noconfirm  $program
 		  	
+elif pacman -Qi trizen &> /dev/null; then
+
+        echo "Installing with trizen"
+        trizen -S --noconfirm $package
+
 fi
 
 
@@ -52,7 +57,12 @@ elif which yaourt > /dev/null; then
 
 	echo "Installing with yaourt"
 	yaourt -S --noconfirm $program
-		  	
+
+elif pacman -Qi trizen &> /dev/null; then
+
+        echo "Installing with trizen"
+        trizen -S --noconfirm $package
+
 fi
 
 
