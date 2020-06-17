@@ -88,7 +88,12 @@ else
 
 		echo "Installing with yaourt"
 		yaourt -S --noconfirm $package
-			  	
+
+        elif pacman -Qi trizen &> /dev/null; then
+
+                echo "Installing with trizen"
+                trizen -S --noconfirm $package
+
 	fi
 
 	# Just checking if installation was successful
@@ -150,6 +155,11 @@ else
 		echo "Installing with yaourt"
 		yaourt -S --noconfirm $package
 			  	
+        elif pacman -Qi trizen &> /dev/null; then
+
+                echo "Installing with trizen"
+                trizen -S --noconfirm $package
+
 	fi
 
 	# Just checking if installation was successful
@@ -216,6 +226,11 @@ else
 		echo "Installing with yaourt"
 		yaourt -S --noconfirm $package
 			  	
+        elif pacman -Qi trizen &> /dev/null; then
+
+                echo "Installing with trizen"
+                trizen -S --noconfirm $package
+
 	fi
 
 	# Just checking if installation was successful
@@ -278,6 +293,11 @@ else
 		echo "Installing with yaourt"
 		yaourt -S --noconfirm $package
 			  	
+        elif pacman -Qi trizen &> /dev/null; then
+
+                echo "Installing with trizen"
+                trizen -S --noconfirm $package
+
 	fi
 
 	# Just checking if installation was successful
@@ -345,6 +365,10 @@ else
 		echo "Installing with yaourt"
 		yaourt -S --noconfirm $package
 			  	
+        elif pacman -Qi trizen &> /dev/null; then
+
+                echo "Installing with trizen"
+                trizen -S --noconfirm $package
 	fi
 
 	# Just checking if installation was successful
@@ -410,6 +434,10 @@ else
 		echo "Installing with yaourt"
 		yaourt -S --noconfirm $package
 			  	
+        elif pacman -Qi trizen &> /dev/null; then
+
+                echo "Installing with trizen"
+                trizen -S --noconfirm $package
 	fi
 
 	# Just checking if installation was successful
@@ -475,6 +503,10 @@ else
 		echo "Installing with yaourt"
 		yaourt -S --noconfirm $package
 			  	
+        elif pacman -Qi trizen &> /dev/null; then
+
+                echo "Installing with trizen"
+                trizen -S --noconfirm $package
 	fi
 
 	# Just checking if installation was successful
@@ -673,6 +705,11 @@ else
 		echo "Installing with yaourt"
 		yaourt -S --noconfirm $package
 			  	
+        elif pacman -Qi trizen &> /dev/null; then
+
+                echo "Installing with trizen"
+                trizen -S --noconfirm $package
+
 	fi
 
 	# Just checking if installation was successful
@@ -739,6 +776,11 @@ else
 		echo "Installing with yaourt"
 		yaourt -S --noconfirm $package
 			  	
+        elif pacman -Qi trizen &> /dev/null; then
+
+                echo "Installing with trizen"
+                trizen -S --noconfirm $package
+
 	fi
 
 	# Just checking if installation was successful
@@ -805,6 +847,11 @@ else
 		echo "Installing with yaourt"
 		yaourt -S --noconfirm $package
 			  	
+        elif pacman -Qi trizen &> /dev/null; then
+
+                echo "Installing with trizen"
+                trizen -S --noconfirm $package
+
 	fi
 
 	# Just checking if installation was successful
@@ -942,6 +989,11 @@ else
 		echo "Installing with yaourt"
 		yaourt -S --noconfirm $package
 			  	
+        elif pacman -Qi trizen &> /dev/null; then
+
+                echo "Installing with trizen"
+                trizen -S --noconfirm $package
+
 	fi
 
 	# Just checking if installation was successful
@@ -1011,6 +1063,11 @@ else
 		echo "Installing with yaourt"
 		yaourt -S --noconfirm $package
 			  	
+        elif pacman -Qi trizen &> /dev/null; then
+
+                echo "Installing with trizen"
+                trizen -S --noconfirm $package
+
 	fi
 
 	# Just checking if installation was successful
@@ -1075,6 +1132,11 @@ else
 		echo "Installing with yaourt"
 		yaourt -S --noconfirm $package
 			  	
+        elif pacman -Qi trizen &> /dev/null; then
+
+                echo "Installing with trizen"
+                trizen -S --noconfirm $package
+
 	fi
 
 	# Just checking if installation was successful
@@ -1140,6 +1202,11 @@ else
 		echo "Installing with yaourt"
 		yaourt -S --noconfirm $package
 			  	
+        elif pacman -Qi trizen &> /dev/null; then
+
+                echo "Installing with trizen"
+                trizen -S --noconfirm $package
+
 	fi
 
 	# Just checking if installation was successful
