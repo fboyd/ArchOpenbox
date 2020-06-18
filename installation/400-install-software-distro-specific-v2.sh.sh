@@ -42,7 +42,8 @@ sudo pacman -S obconf --needed --noconfirm
 #sudo pacman -S obmenu --needed --noconfirm
 sudo pacman -S openbox --needed --noconfirm
 
-
+sh install-oblogout-v1.sh
+sh install-obmenu-v1.sh
 
 
 # openbox - AUR - alphabetically

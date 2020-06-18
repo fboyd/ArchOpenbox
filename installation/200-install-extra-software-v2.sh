@@ -73,7 +73,7 @@ sh install-neofetch-v1.sh
 
 # Sublime text 3
 
-sh install-sublime-text-v1.sh
+#sh install-sublime-text-v1.sh
 
 ###############################################################################################
 

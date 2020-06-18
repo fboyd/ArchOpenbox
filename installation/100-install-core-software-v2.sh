@@ -28,6 +28,8 @@ sudo pacman -S --noconfirm --needed simple-scan simplescreenrecorder smplayer sy
 sudo pacman -S --noconfirm --needed terminator thunar transmission-cli transmission-gtk tumbler
 sudo pacman -S --noconfirm --needed variety vlc vnstat wget unclutter  
 
+sh install-gksu-v1.sh
+sh install-inxi-v1.sh
 
 # gksu inxi pinta
 
