@@ -1,0 +1,21 @@
+[/]
+alignment='center'
+auto-pinning=true
+current-workspace-only=true
+dock-items=['xterm.dockitem', 'thunar.dockitem', 'firefox.dockitem', 'simplescreenrecorder.dockitem', 'clock.dockitem']
+hide-delay=0
+hide-mode='intelligent'
+icon-size=48
+items-alignment='center'
+lock-items=false
+monitor=''
+offset=0
+pinned-only=false
+position='left'
+pressure-reveal=false
+show-dock-item=false
+theme='shade'
+tooltips-enabled=true
+unhide-delay=0
+zoom-enabled=false
+zoom-percent=150

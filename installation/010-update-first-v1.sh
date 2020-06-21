@@ -14,7 +14,7 @@ echo "################################################################"
 
 
 # installing refector to test wich servers are fastest
-sudo pacman -Syyu
+sudo pacman -Syyu --noconfirm --needed
 
 echo "################################################################"
 echo "####             Your system is now up to date              ####"
